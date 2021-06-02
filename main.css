@@ -5,12 +5,6 @@
  * @description Every days, a new background!
 */
 
-
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
-@import url("https://discordstyles.github.io/HorizontalServerList/base.css");
-@import url("https://discordstyles.github.io/RadialStatus/base.css");
-@import url("https://goldenlys.github.io/BetterDiscord-Elysia/HoverMemberList.css");
-
 :root { 
 
     --rs-small-spacing: 2px;  /* default: 2px       (spacing between avatar and status) */
