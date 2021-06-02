@@ -5,6 +5,11 @@
  * @description Every days, a new background!
 */
 
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
+@import url("https://discordstyles.github.io/HorizontalServerList/base.css");
+@import url("https://discordstyles.github.io/RadialStatus/base.css");
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/HoverMemberList.css");
+
 :root { 
 
     --rs-small-spacing: 2px;  /* default: 2px       (spacing between avatar and status) */
@@ -18,6 +23,7 @@
     --rs-streaming-color: #643da7;  /* default: #643da7     (color for streaming status) */
     --rs-invisible-color: #000000;  /* default:  #000000    (color for invisible status - Note this will only show for your own invisibility) */
     
+    --text-color: #4AEF98;
     --transparencycolor:            0.75,0.75,0.75;                 /* default: 0,0,0                                                                                               */
     --transparencyalpha:            0.3;                        /* default: 0.0                 (general darkness of the app)                                                   */
     --messagetransparency:          0;                      /* default: 0.0                 (additional shadows behind messages, set to 0 to remove boxes)                  */
