@@ -1,0 +1,58 @@
+/**
+ * @name €pic Meme$
+ * @author Seagy#8227
+ * @version 0.0.0
+ * @description Every days, a new background!
+*/
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css);
+@import url("https://discordstyles.github.io/HorizontalServerList/base.css");
+@import url("https://discordstyles.github.io/RadialStatus/base.css");
+@import url("https://goldenlys.github.io/BetterDiscord-Elysia/HoverMemberList.css");
+
+:root { 
+
+    --rs-small-spacing: 2px;  /* default: 2px       (spacing between avatar and status) */
+    --rs-large-spacing: 3px;  /* default: 3px       (spacing between avatar and status for user popouts & modals/profiles | MUST end in px) */
+    --rs-width: 2px;  /* default: 2px (Width/thickness of status border) */
+    --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
+    --rs-online-color: #43b581;  /* default:  #43b581       (color for online status) */
+    --rs-idle-color: #faa61a;  /*   default:  #faa61a       (color for idle status) */
+    --rs-dnd-color: #ffbe6f ;  /*   default:  #ffbe6f       (color for dnd status) */
+    --rs-offline-color: #636b75;  /* default: #636b75       (color for offline status) */
+    --rs-streaming-color: #643da7;  /* default: #643da7     (color for streaming status) */
+    --rs-invisible-color: #000000;  /* default:  #000000    (color for invisible status - Note this will only show for your own invisibility) */
+    
+    --text-color: #4AEF98;
+    --transparencycolor:            0.75,0.75,0.75;                 /* default: 0,0,0                                                                                               */
+    --transparencyalpha:            0.3;                        /* default: 0.0                 (general darkness of the app)                                                   */
+    --messagetransparency:          0;                      /* default: 0.0                 (additional shadows behind messages, set to 0 to remove boxes)                  */
+    --guildchanneltransparency:     0;                      /* default: 0.0                 (additional darkness for guild/channel list)                                    */
+    --memberlisttransparency:       0;                      /* default: 0.0                 (additional darkness for member list)                                           */
+    --accentcolor:                  255, 139, 0;                    /* default: 0,0,0               (RGB-format - blurple: 114,137,218 bd-blue: 58,113,193)                         */
+    --main-color: #000000; /* Main Color */ 
+    
+    --font:                         Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;      /* font used in most places                                                     */
+    --textshadow:                   transparent;                /* default: transparent         (textshadow for text ontop of accentcolor nodes, ONLY accepts a color, no px)   */
+    --settingsicons:                1;                          /* Use Settings Icons in User/Server/Channel Settings: 1 = yes, 0 = no                                          */
+
+    --hide-member-list: 1;
+    --hide-active-now: 1;
+    --background:                   url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67qM18sOEOOAkoEWA5JyIVS2iN5pyBIGdWhbAz7xPNZEylDTbqz7NS97dZ3k5d7S2RDY&usqp=CAU);  /* general background image             */
+    --backgroundposition:           center;                     /* default: center              (position of background - values: [center/top/right/bottom/left])               */
+    --backgroundsize:               cover;                      /* default: cover               (sizefit of background - values: [cover/contain/auto])                          */
+    --backgroundblur:               unset;                      /* default: unset               (blur in px, only works when --background is set to an image)                   */
+    
+    --popout:                       var(--background);          /* default: var(--background)   (change to use another background/color for modals/popouts)                     */
+    --popoutposition:               var(--backgroundposition);  /* default: center              (position of popout - values: [center/top/right/bottom/left])                   */
+    --popoutsize:                   var(--backgroundsize);      /* default: cover               (sizefit of popout - values: [cover/contain/auto])                              */
+    --popoutblur:                   var(--backgroundblur);      /* default: unset               (blur in px, only works when --popout is set to an image)                       */
+    
+    --backdrop:                     rgba(0,0,0,0.85);           /* default: rgba(0,0,0,0.85)    (change to use another background/color for backdrops)                          */
+    --backdropposition:             var(--backgroundposition);  /* default: center              (position of backdrop - values: [center/top/right/bottom/left])                 */
+    --backdropsize:                 var(--backgroundsize);      /* default: cover               (sizefit of backdrop - values: [cover/contain/auto])                            */
+    --backdropblur:                 var(--backgroundblur);      /* default: unset               (blur in px, only works when --backdrop is set to an image)                     */
+    
+    --version1_0_5:                 none;                       /* DO NOT CHANGE THIS VARIABLE , USED TO HIDE UPDATE NOTICE                                                     */
+}
+/*https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/_res/background.jpg
